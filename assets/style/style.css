@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Caveat', cursive;
+    src: url(../font/Caveat-Bold.woff2) format('woff2'),
+        url(../font/Caveat-Bold.woff) format('woff');
+}
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 2%, rgba(148,187,233,0.31976540616246496) 97%);
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Caveat', cursive;
+    padding: 10px 40px;
+    color:rgb(56, 54, 54);
+    background-color: rgba(216, 171, 198, 0.404);
+}
+.name_nav {
+    padding: 10px 40px;
+    border:  1rem solid rgba(96, 135, 218, 0.637);
+}
+.header1 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    color: rgba(31, 85, 202, 0.637);
+    text-shadow: 2px 2px 4px rgba(33, 43, 104, 0.5)
+}
+.header2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+    color: rgb(56, 54, 54);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+.img {
+    width: 16%; 
+    margin: 0 0 0 1.5%;
+    background: rgba(116, 148, 218, 0.637);
+    padding: 7px;
+}
+.img_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
