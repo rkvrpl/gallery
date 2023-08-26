@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat';
     src: url(../font/Caveat-Bold.woff2) format('woff2'),
         url(../font/Caveat-Bold.woff) format('woff');
 }
@@ -47,7 +47,5 @@ body{
     justify-content: center;
 }
 img:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
